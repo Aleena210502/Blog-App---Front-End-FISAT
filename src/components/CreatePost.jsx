@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavBar from './NavBar'
 
 const CreatePost = () => {
 
@@ -39,6 +40,7 @@ if (response.data.status=="success") {
 
   return (
     <div>
+      <NavBar/>
 
   <div className="container">
     <div className="row">
