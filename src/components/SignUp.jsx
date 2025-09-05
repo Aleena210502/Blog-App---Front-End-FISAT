@@ -77,7 +77,7 @@ axios.post("http://localhost:3030/signUp",newInput).then(
                 <button onClick={readValues} className="btn btn-success">Register</button>
               </div>
               <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <a href="" className="btn btn-primary">Back to Login</a>
+                <a href="/" className="btn btn-primary">Back to Login</a>
               </div>
             </div>
 
